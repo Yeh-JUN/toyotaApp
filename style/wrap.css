@@ -1,0 +1,104 @@
+
+
+.wrap{
+    width: 960px;
+    height: 812px;
+    margin: 0 auto;
+    background-color:#fff;
+    position: relative;
+}
+
+.info{
+    display: block;
+    width: 335px;
+    height: 368px;
+    position: relative;
+    z-index: 1;
+}
+
+.info-title{
+    display: flex;
+    padding-right: 25px;
+    height: 140px;
+    line-height: 140px;
+    width:100%;
+    background-color: rgb(138, 12, 12);
+    color: #fff;
+}
+
+.info-title h2{
+    transform: rotate(90deg);
+    line-height: 120px;
+    font-size: 700%;
+    font-stretch:ultra-expanded;
+}
+.info-title h3{
+    font-weight: 100;
+    font-size: 299%;
+}
+
+
+.info-des{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding-left:20px;
+    padding-right: 5px;
+    
+}
+
+.info-des h3{
+    font-weight: 500;
+    font-size: 27px;
+    padding: 22px 0 10px 0px;
+}
+
+.info-des p{
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 19px;
+    padding-bottom: 66px;
+    color: #ccc;
+}
+
+.col-wedo{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 682px;
+    height: 274px;
+    background-color: rgb(245, 241, 241);
+}
+
+.col-bgc{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 441px;
+    height: 292px;
+    background-color:rgb(245, 241, 241);
+    ;
+}
+
+.col-carpic{
+    position: absolute;
+    z-index: 0;
+    top: 17.2%;
+    left: 18.8%;
+    background-image: url(../toyotaImg/video01.png);
+    width: 695px;
+    height: 430px;
+}
+
+.col-ytpic{
+    position: absolute;
+    right: 8%;
+    top: 42%;
+    width: 57px;
+    height: 36px;
+    background-image: url(../toyotaImg/video-icon.png);
+}
